@@ -1,0 +1,64 @@
+/*----- FONTS --------*/
+@import url('https://fonts.googleapis.com/css?family=Satisfy|Slabo+27px');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400');
+/*----- UNIVERSALS --------*/
+
+
+/*----- NAV BAR --------*/
+.logo {
+  width: 90px;
+}
+.satisfy-text {
+font-family: 'Satisfy', cursive;
+color: #ff827b;
+}
+.nav-pills {
+  margin-top: 31px;
+}
+/*----- JUMBOTRON --------*/
+#jumbotron-background {
+    background-image: url('../img/hero.jpg');
+    height:   400px;
+    background-size: cover;
+    background-position: center;
+}
+#jumbotron-background p {
+    font-family: 'Open Sans', sans-serif;
+    color: #fff;
+    font-size: 2em;
+    margin-top: 50px;
+    font-weight: 300;
+}
+/*----- FEATURES --------*/
+.thumbnail {
+  background-color: #EDF1F4;
+  padding: 8px;
+  margin: 3px;
+}
+.thumbnail img {
+    padding: 10px;
+}
+/*----- SERVICES --------*/
+.nav-stacked {
+  margin-top: 5px;
+  padding-left: 40px;
+  padding-right: 40px;
+}
+/*----- FOOTER --------*/
+.footer-background {
+  background-color: #231F20;
+  margin-top: 50px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  color: #b3b3b3;
+}
+.left-border {
+  border-left: 2px solid #333;
+}
+.left-border a {
+  color: #b3b3b3;
+}
+.footer {
+  padding: 10px;
+  color: #595959;
+}
